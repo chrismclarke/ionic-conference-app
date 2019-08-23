@@ -24,7 +24,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g @angular/cli
+    npm install -g @angular/cli node-pre-gyp
     yarn install
     ng build
   displayName: 'yarn install and build'
