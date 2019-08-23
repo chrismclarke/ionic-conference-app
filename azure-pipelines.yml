@@ -25,9 +25,9 @@ steps:
 
 - script: |
     npm install -g @angular/cli
-    npm install
+    yarn install
     ng build --prod
-  displayName: 'npm install and build'
+  displayName: 'yarn install and build'
   
 - task: CordovaBuild@1
   inputs:
